@@ -19,7 +19,7 @@ driver.findElement(By.xpath(p.getProperty("enterusername"))).sendKeys(username);
 driver.findElement(By.xpath(p.getProperty("enterpassword"))).sendKeys(password);	
 driver.findElement(By.xpath(p.getProperty("login"))).click();
 Thread.sleep(5000);
-String expval="adminflow.";
+String expval="adminflow";
 String actval=driver.getCurrentUrl();
 if(actval.toLowerCase().contains(expval.toLowerCase()))
 {
@@ -135,6 +135,10 @@ public static boolean verifyupdatebranch(String bname,String address1)throws Thr
 		Reporter.log("Branch updated Fail",true);
 		return false;
 	}
+}
+public void login()
+{
+	
 }
 }
 
