@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="calculator" duration-ms="78604" started-at="2020-05-22T12:49:55Z" finished-at="2020-05-22T12:51:14Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="43983" started-at="2020-05-22T12:49:55Z" finished-at="2020-05-22T12:50:39Z">
+      <class name="may22.CrossBrowser">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:may22.CrossBrowser@59f99ea]" name="setUp" is-config="true" duration-ms="14921" started-at="2020-05-22T18:19:55Z" finished-at="2020-05-22T18:20:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatecal()[pri:0, instance:may22.CrossBrowser@59f99ea]" name="validatecal" duration-ms="28082" started-at="2020-05-22T18:20:10Z" finished-at="2020-05-22T18:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecal -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:may22.CrossBrowser@59f99ea]" name="teardown" is-config="true" duration-ms="930" started-at="2020-05-22T18:20:38Z" finished-at="2020-05-22T18:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- may22.CrossBrowser -->
+    </test> <!-- chrometest -->
+    <test name="FirefoxTest" duration-ms="78604" started-at="2020-05-22T12:49:55Z" finished-at="2020-05-22T12:51:14Z">
+      <class name="may22.CrossBrowser">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:may22.CrossBrowser@c038203]" name="setUp" is-config="true" duration-ms="44297" started-at="2020-05-22T18:19:55Z" finished-at="2020-05-22T18:20:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatecal()[pri:0, instance:may22.CrossBrowser@c038203]" name="validatecal" duration-ms="29024" started-at="2020-05-22T18:20:39Z" finished-at="2020-05-22T18:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecal -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:may22.CrossBrowser@c038203]" name="teardown" is-config="true" duration-ms="5276" started-at="2020-05-22T18:21:08Z" finished-at="2020-05-22T18:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- may22.CrossBrowser -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- calculator -->
+</testng-results>
